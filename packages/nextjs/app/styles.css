@@ -1,0 +1,48 @@
+.rounded-rectangle {
+    background-color: #003366; 
+    border-radius: 15px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: start; 
+    align-items: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin: 20px auto; 
+    font-size: 20px;
+    overflow: auto;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
+.rounded-rectangle-main {
+    width: 100%;
+    height: 100%;
+    background-color: #003366;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    font-size: 25px;
+    position: absolute;
+}
+
+.text {
+    color: white; 
+    margin: 0; 
+    text-align: center; 
+    font-size: 100%;
+    margin: 20px auto;
+}
+
+.rounded-button {
+    background-color: #000000; 
+    border-radius: 15px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    margin: 20px auto;
+    font-size: 20px;
+}
