@@ -194,7 +194,6 @@ const Home: NextPage = () => {
           </div>
         </div>
       </main>
-      undefined
     </>
   );
 };
