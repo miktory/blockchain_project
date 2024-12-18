@@ -1,10 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import type { NextPage } from "next";
-import { useAccount, useReadContract, useWriteContract } from "wagmi";
-import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import { Address } from "~~/components/scaffold-eth";
+import { useAccount } from "wagmi";
 import { useEffect, useState } from "react";
 import deployedContracts from "../contracts/deployedContracts";
 import { ethers } from "ethers";
