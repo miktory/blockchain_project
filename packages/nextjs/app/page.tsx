@@ -66,7 +66,7 @@ const Home: NextPage = () => {
       } catch {}
     };
     checkOwnership();
-  }, [connectedAddress]);
+  }, [connectedAddress, contract]);
 
   const fetchValue = async () => {
     if (!connectedAddress) {
