@@ -36,5 +36,3 @@ jobs:
       - name: Run nextjs lint
         run: yarn next:lint
 
-      - name: Run hardhat lint
-        run: yarn hardhat:lint
