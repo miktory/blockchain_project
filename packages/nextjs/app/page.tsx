@@ -1,14 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import deployedContracts from "../contracts/deployedContracts";
 import "./styles.css";
 import { ethers } from "ethers";
 import type { NextPage } from "next";
-import { useAccount, useReadContract, useWriteContract } from "wagmi";
-import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-import { Address } from "~~/components/scaffold-eth";
+import { useAccount } from "wagmi";
 
 const Home: NextPage = () => {
   const { address: connectedAddress } = useAccount();
